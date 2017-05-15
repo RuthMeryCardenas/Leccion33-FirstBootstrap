@@ -3,43 +3,68 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 header {
   padding-bottom: 80px;
   padding-top: 84px;
   position: relative;
 }
+
+/*MENÚ DE NAVEGACIÓN*/
 header nav {
   background-color: #FFFFFF;
   height: 70px;
-  left: 0px;
+  left: 0;
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
+
 header nav ul {
   line-height: 70px;
   padding-right: 80px;
   text-align: right;
 }
+
 nav ul li a {
   color: #000000;
   text-transform: uppercase;
 }
+
 header nav h1 {
   line-height: 70px;
   margin: 0;
   margin-left: 30px;
 }
+
 header .action img {
   margin: 15px 0;
   width: 80px;
 }
+
 header .action h1 {
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .action .btn {
   margin-top: 15px;
   text-transform: uppercase;
+}
+
+/*SECCIÓN LISTA DE ÍCONOS*/
+.container .servicio {
+  padding: 0 30px;
+}
+
+.container .servicio h3 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.container .servicio i {
+  font-size: 6em;
+  margin-bottom: 15px;
 }
